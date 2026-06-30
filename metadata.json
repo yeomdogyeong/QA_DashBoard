@@ -1,0 +1,6 @@
+{
+  "name": "AI QA Report Generator",
+  "description": "An interactive dashboard and AI-powered QA report generator that converts test and defect CSV data into professional, shareable QA metrics, charts, and executive insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

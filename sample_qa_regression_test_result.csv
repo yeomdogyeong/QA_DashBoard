@@ -1,0 +1,31 @@
+ID,Title,Status,Severity,Priority,Module,Date,Tester
+TC-001,User Authentication - JWT Token Issuance on Login,Pass,High,P1,Auth / User Management,2026-06-20,Minjun Kim
+TC-002,User Authentication - OAuth2 Google Login Callback,Pass,High,P1,Auth / User Management,2026-06-20,Minjun Kim
+TC-003,User Authentication - Session Timeout Expiry,Pass,Medium,P2,Auth / User Management,2026-06-20,Minjun Kim
+TC-004,User Authentication - Password Reset Token Expiration,Pass,Medium,P2,Auth / User Management,2026-06-21,Minjun Kim
+TC-005,Billing - Stripe Webhook Handler Signature Verification,Pass,Critical,P1,Billing & Payment Integration,2026-06-21,Jiwoo Park
+TC-006,Billing - Failed Recurring Payment Grace Period Retry,Fail,High,P1,Billing & Payment Integration,2026-06-21,Jiwoo Park
+TC-007,Billing - PDF Invoice Generation Layout under Long Strings,Pass,Low,P3,Billing & Payment Integration,2026-06-21,Jiwoo Park
+TC-008,Billing - Multiple Coupon Codes Double Discount Check,Fail,Critical,P1,Billing & Payment Integration,2026-06-22,Jiwoo Park
+TC-009,API Core - Rate Limiter 100 req/min for Public Endpoints,Pass,High,P1,API Core Services,2026-06-22,Hojun Choi
+TC-010,API Core - Gzip Compression on Payload Responses > 10KB,Pass,Low,P3,API Core Services,2026-06-22,Hojun Choi
+TC-011,API Core - CORS Policy Validation for Third-party Clients,Pass,Medium,P2,API Core Services,2026-06-22,Hojun Choi
+TC-012,API Core - JSON Body Parser Stack Overflow on Nested Objects,Fail,High,P1,API Core Services,2026-06-23,Hojun Choi
+TC-013,Notification - Slack Channel Incoming Webhook Router,Pass,Medium,P2,Notification Router,2026-06-23,Sujin Lee
+TC-014,Notification - Email Template Rendering UTF-8 Character Escaping,Pass,Low,P3,Notification Router,2026-06-23,Sujin Lee
+TC-015,Notification - SMS Dispatch Queue Concurrency Lock,Blocked,High,P2,Notification Router,2026-06-23,Sujin Lee
+TC-016,Web UI - Sidebar Navigation State Persist on Page Reload,Pass,Low,P3,Web Console Front-end,2026-06-24,Minjun Kim
+TC-017,Web UI - Data Table Grid Server-Side Pagination & Sort,Pass,Medium,P2,Web Console Front-end,2026-06-24,Minjun Kim
+TC-018,Web UI - Dark Mode Theme CSS Variables Flicker on Hydration,Pass,Low,P3,Web Console Front-end,2026-06-24,Minjun Kim
+TC-019,Web UI - Real-time Logs Websocket Reconnect on Network Drop,Fail,Medium,P2,Web Console Front-end,2026-06-24,Minjun Kim
+TC-020,Web UI - Accessibility Compliance ARIA labels for Screen Reader,Pass,Medium,P3,Web Console Front-end,2026-06-25,Minjun Kim
+TC-021,Search - Multi-Field Filtering on Large Datasets Indexed,Pass,High,P1,Search & Discovery,2026-06-25,Sujin Lee
+TC-022,Search - Autocomplete Suggestion Debounce Delay (300ms),Pass,Low,P3,Search & Discovery,2026-06-25,Sujin Lee
+TC-023,Search - Special Character Handling Syntax Escape,Pass,Medium,P2,Search & Discovery,2026-06-25,Sujin Lee
+TC-024,Reporting - CSV Export Memory Leak on >5000 Rows,Fail,High,P2,Web Console Front-end,2026-06-26,Hojun Choi
+TC-025,Reporting - PDF Print Styles Sheet Page Breakdown,Pass,Low,P3,Web Console Front-end,2026-06-26,Hojun Choi
+TC-026,Settings - Multi-factor Auth (MFA) App Totp Pairing,Pass,Critical,P1,Auth / User Management,2026-06-26,Minjun Kim
+TC-027,Settings - Organization Role-Based Access Control (RBAC),Pass,High,P1,Auth / User Management,2026-06-27,Minjun Kim
+TC-028,Settings - Custom Webhook Payload Headers Builder,Pass,Medium,P2,Notification Router,2026-06-27,Sujin Lee
+TC-029,Billing - Apple Pay Sandbox Payment Token Parse Error,Blocked,Critical,P1,Billing & Payment Integration,2026-06-27,Jiwoo Park
+TC-030,Reporting - Real-time Excel Streaming Buffer Flush Timeout,Skipped,Medium,P3,Web Console Front-end,2026-06-27,Hojun Choi
